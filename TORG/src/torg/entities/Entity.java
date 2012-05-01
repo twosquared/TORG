@@ -1,5 +1,11 @@
 package torg.entities;
 
-public class Entity {
+import torg.actions.Action;
+
+public interface Entity {
+
+	public String getName();
+
+	public String performAction(Action action);
 
 }
